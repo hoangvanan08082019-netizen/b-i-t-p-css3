@@ -1,0 +1,133 @@
+<!-- Nhúng mã CSS trực tiếp vào file -->
+<style>
+    /* 1. Nội dung: font chữ, cỡ chữ và màu nền */
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #333333;
+        background-color: #f4f7fb;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* 2. Tiêu đề trang */
+    header {
+        background-color: #1e3a5f;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    /* 3. Thanh điều hướng */
+    nav {
+        background-color: #2563a6;
+        padding: 12px 20px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        margin-right: 20px;
+    }
+
+    nav a:hover {
+        color: #ffd166;
+    }
+
+    /* 4. Nội dung chính */
+    main {
+        background-color: white;
+        font-size: 16px;
+        max-width: 1000px;
+        margin: 25px auto;
+        padding: 25px;
+        border-radius: 10px;
+    }
+
+    /* 5. Chân trang */
+    footer {
+        background-color: #1e3a5f;
+        color: white;
+        padding: 15px;
+        text-align: center;
+    }
+
+    /* 6. Danh sách */
+    li {
+        color: #444444;
+        margin-bottom: 8px;
+        padding: 4px;
+    }
+
+    /* 7. Tiêu đề h1 */
+    h1 {
+        text-align: center;
+        font-family: Georgia, "Times New Roman", serif;
+        color: #1e3a5f;
+        background-color: #e3efff;
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    /* 8. Hình ảnh */
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    /* 9. Các tiêu đề h2 và h3 */
+    h2,
+    h3 {
+        color: #2563a6;
+    }
+
+    /* 10. Giao diện trên điện thoại */
+    @media (max-width: 600px) {
+        main {
+            margin: 10px;
+            padding: 15px;
+        }
+
+        nav a {
+            display: inline-block;
+            margin: 5px 10px 5px 0;
+        }
+    }
+</style>
+
+
+<!-- Tiêu đề trang -->
+<header>
+    <h1>Trang web của tôi</h1>
+</header>
+
+<!-- Thanh điều hướng -->
+<nav>
+    <a href="index.html">Trang chủ</a>
+    <a href="about.html">Giới thiệu</a>
+    <a href="contact.html">Liên hệ</a>
+</nav>
+
+<!-- Nội dung chính -->
+<main>
+    <h2>Nội dung chính</h2>
+
+    <p>Chào mừng bạn đến với trang web của tôi.</p>
+
+    <h2>Danh sách nội dung</h2>
+    <ul>
+        <li>Nội dung thứ nhất</li>
+        <li>Nội dung thứ hai</li>
+        <li>Nội dung thứ ba</li>
+    </ul>
+
+    <img src="image.jpg" alt="Hình ảnh minh họa">
+</main>
+
+<!-- Chân trang -->
+<footer>
+    <p>Bản quyền thuộc về tôi.</p>
+</footer>
